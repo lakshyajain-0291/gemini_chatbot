@@ -1,0 +1,35 @@
+{
+  "name": "gemini_chatbot",
+  "version": "1.0.0",
+  "description": "a chatbot using gemini api to get familiar with it's usage and application.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lakshyajain-0291/gemini_chatbot.git"
+  },
+  "keywords": [
+    "chatbot",
+    "gemini",
+    "api",
+    "nodejs",
+    "express"
+  ],
+  "author": "Lakshya Jain b23cs1032@iitj.ac.in",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lakshyajain-0291/gemini_chatbot/issues"
+  },
+  "homepage": "https://github.com/lakshyajain-0291/gemini_chatbot#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.14.1",
+    "axios": "^1.7.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
