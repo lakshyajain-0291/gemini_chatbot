@@ -146,7 +146,7 @@ app.post('/chat',async(req,res)=>{
         const chat = model.startChat({
             history: sessionContexts[userId].history,
             generationConfig: {
-            maxOutputTokens: 100,
+            maxOutputTokens: 10000,
             },
         });
         
